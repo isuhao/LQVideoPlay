@@ -1,0 +1,10 @@
+#忽略Qt环境相关的配置文件xxx.pro.user
+*.pro.user
+
+#忽略可执行文件生成的目录，因为其中包含了其他第三方库
+bin/
+
+#.Debug .Release
+.Debug
+.Release
+Makefile
